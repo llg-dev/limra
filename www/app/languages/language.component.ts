@@ -1,11 +1,11 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
-import { Language } from './model/language';
+import { Language } from './language';
 
 @Component({
   selector: 'language-choice',
- 	templateUrl: 'app/language.component.html',
-	styleUrls: ['app/language.component.css']
+ 	templateUrl: 'app/languages/language.component.html',
+	styleUrls: ['app/languages/language.component.css']
 })
 
 export class LanguageComponent implements OnInit

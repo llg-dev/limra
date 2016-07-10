@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
-import { LanguageComponent } from './language.component';
-import { TopicsComponent } from './topics.component';
-import { Topic } from './model/topic';
-import { Language } from './model/language';
+import { LanguageComponent } from '../languages/language.component';
+import { TopicsComponent } from '../topics/topics.component';
+import { Topic } from '../topics/topic';
+import { Language } from '../languages/language';
 
 @Component({
   selector: 'dashboard',
- 	templateUrl: 'app/dashboard.component.html',
-	styleUrls: ['app/dashboard.component.css'],
+ 	templateUrl: 'app/dashboard/dashboard.component.html',
+	styleUrls: ['app/dashboard/dashboard.component.css'],
 	directives: [LanguageComponent, TopicsComponent]
 })
 

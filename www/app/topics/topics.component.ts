@@ -1,14 +1,14 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
-import { TopicService } from './service/topic.service';
-import { Topic } from './model/topic';
-import { Language } from './model/language';
+import { TopicService } from './topic.service';
+import { Topic } from './topic';
+import { Language } from '../languages/language';
 
 import { Observable } from 'rxjs/Observable';
 
 @Component({
   selector: 'topics-values',
- 	templateUrl: 'app/topics.component.html',
+ 	templateUrl: 'app/topics/topics.component.html',
 	styles: [` .evenItem { background-color: #ACACAC; } .oddItem { background-color: #EFEFEF; }`]
 })
 

@@ -1,8 +1,8 @@
 import { Injectable }    from '@angular/core';
 import { Headers, Http, Response } from '@angular/http';
 import 'rxjs/add/operator/toPromise';
-import { Topic } from '../model/topic';
-import { Language } from '../model/language';
+import { Topic } from './topic';
+import { Language } from '../languages/language';
 
 
 import 'rxjs/add/operator/map';

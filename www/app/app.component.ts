@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ROUTER_DIRECTIVES } from '@angular/router';
-import { TopicService } from './service/topic.service';
+import { TopicService } from './topics/topic.service';
 
 @Component({
     selector: 'my-app',

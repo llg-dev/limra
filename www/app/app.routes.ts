@@ -1,6 +1,6 @@
 import { provideRouter, RouterConfig } from '@angular/router';
-import { LanguageComponent } from './language.component';
-import { DashboardComponent } from './dashboard.component';
+import { LanguageComponent } from './languages/language.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 export const routes: RouterConfig = [
 	{

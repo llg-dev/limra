@@ -2,7 +2,7 @@
 import { XHRBackend } from '@angular/http';
 
 import { InMemoryBackendService, SEED_DATA } from 'angular2-in-memory-web-api';
-import { InMemoryDataService }               from './service/in-memory-data.service';
+import { InMemoryDataService }               from './mock/in-memory-data.service';
 
 // The usual bootstrapping imports
 import { bootstrap }      from '@angular/platform-browser-dynamic';

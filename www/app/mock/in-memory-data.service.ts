@@ -1,5 +1,5 @@
-import {Topic} from '../model/topic';
-import {Language} from '../model/language';
+import {Topic} from '../topics/topic';
+import {Language} from '../languages/language';
 
 export class InMemoryDataService {
 
