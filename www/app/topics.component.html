@@ -1,0 +1,9 @@
+
+<!-- Async pipe is used to bind an observable directly in our template -->
+<ul class="limraItems">
+	<li *ngFor="let topic of topics$ | async; let odd=odd; let even=even;" (click)="gotoUrl(topic)" [class.oddItem]="odd" [class.evenItem]="even">
+		<a href="{{topic.link}}">{{topic.title}}</a>
+		<p>{{topic.date | date:"MM/dd/yy"}}</p>
+		<p *ngIf="topic.teaser">{{topic.teaser}}</p>
+	</li>
+</ul>

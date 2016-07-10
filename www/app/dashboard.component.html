@@ -1,0 +1,9 @@
+<div *ngIf="!langActive">
+	<h1>Please choose a language..</h1>
+	<language-choice (onSelected)="onSelected($event)"></language-choice>
+</div>
+<div *ngIf="langActive">
+	<h1>Welcome</h1>
+	<a href="#" (click)="changeLang()">Change Language</a>
+	<topics-values [currentLanguage]="currentLanguage"></topics-values>
+</div>

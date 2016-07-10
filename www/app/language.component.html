@@ -1,0 +1,3 @@
+<ul class="langSelect" *ngFor="let lang of langList" (click)="setLang(lang)">
+	<li><a href="/language/{{lang.code}}"><span>{{lang.name}}</span></a></li>
+</ul>

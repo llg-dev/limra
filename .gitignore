@@ -1,0 +1,45 @@
+# this is a typescript project
+*.js
+*.js.map
+
+# from angular-cli
+node_modules/
+npm-debug.log
+
+# IDEs
+.idea/
+jsconfig.json
+
+# Typings file.
+typings/
+
+# Misc
+tmp/
+dist/
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+
+# Mac OSX Finder files.
+**/.DS_Store
+.DS_Store
+
+
+# Ionic gitignore
+node_modules
+.tmp
+.sass-cache
+**/bower_components or sometimes it is lib/**
+platforms/
+plugins/
+*.swp
+*.swo
+*.log
+*.DS_Store
+
+# cordova
