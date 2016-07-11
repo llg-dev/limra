@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { LanguageComponent } from '../languages/language.component';
 import { TopicsComponent } from '../topics/topics.component';
 import { Topic } from '../topics/topic';
+// import { Topic, TopicsComponent } from '../topics'; // index is implied
 import { Language } from '../languages/language';
 
 @Component({
